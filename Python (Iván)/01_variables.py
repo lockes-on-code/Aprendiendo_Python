@@ -1,4 +1,4 @@
-# Variables
+# VARIABLES #
 
 my_string_variable = "My String Variable"
 print(my_string_variable)
@@ -24,20 +24,22 @@ print(type(print(my_string_variable, my_int_to_str_variable, my_bool_variable)))
 print("Este es el valor de:", my_bool_variable)
 
 # Algunas funciones del sistema
-print(len(my_string_variable)) #"len" de la palabra "lenght" (Cuenta la longitud)
+print(len(my_string_variable)) #"len" de la palabra "lenght" (Cuenta el numero de caracteres)
 
 # Diversas variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!, suele causar errores y confusiones.
 name, surname, alias, age = "Iván", "Fernández", "lockes", 17
 print("Buenas,", "soy", name, surname + ",", "alias", alias + ",", "y tengo", age, "años.")
 print(type(age))
 
-#Practicas con input
+# Practicas con input, es un comentario multininea para no tener que responder cada vez que ejecuto el archivo.
+# Un input nos pide datos por teclado en la consola.
 """
 name = input("¿Cómo te llamas? ")
 print("Encantado de conocerte", name) # Antes teníamos una variable con el nombre "name", pero, como su nombre indica, el valor de una variable puede variar, es decir, esta sobreescribiendo su valor al que nosotros le indiquemos.
 
 age = input("¿Y cuantos años tienes? ") # Antes teníamos una variable con el nombre "age", pero, como su nombre indica, el valor de una variable puede variar, es decir, esta sobreescribiendo su valor al que nosotros le indiquemos.
 print("¿Conque", age, "eh?")
+
 """
 
 # Cambiamos su tipo, esto en cualquier proyecto con varias personas puede suceder, y que por ejemplo se sume lo que no queremos que se sume, multiplique o reste.
@@ -48,8 +50,8 @@ print(age)
 
 # ¿Forzamos el tipo?
 address: str = "Mi dirección"
-address = 32 # Coge el último
+address = 32 # Coge el último, el tipado es dinámico.
 print(type(address))
 
 
-# Mirar lo basico del video que no se haya visto (Mañana)
+# Mirar lo basico del video que no se haya visto en alguna de las paginas web del video.
