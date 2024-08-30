@@ -31,8 +31,8 @@ print(my_other_list[-2])
 # Numeración de los elementos de una lista es el siguiente: 0, 1, 2, n-1... Siendo "n" el numero de elementos que tengamos en una lista. Y escribo -1 ya que se empieza con el 0 a enumerar.
 
 """
-print(my_other_list[-5]) / Daría un indexerror al pasarnos del rango permitido cuyo máximo, en negativos, es "-4".
-print(my_other_list[4]) / Otro indexerror de rango al ser el maximo permitido "4" en los valores positivos.
+print(my_other_list[-5]) / Daría un IndexError al pasarnos del rango permitido cuyo máximo, en negativos, es "-4".
+print(my_other_list[4]) / Otro IndexError de rango al ser el maximo permitido "4" en los valores positivos.
 El rango de valores permitidos en "my_other_list" es entre "-5 y 4" de acuerdo a esta lista.
 """
 
@@ -65,7 +65,7 @@ No funciona ya que int() no funciona con variables tipo 'list'
 # Más funciones con las listas. 
 # Con la gran mayoría de estas funciones primero hay que ejecutarlas para luego poder imprimirlas, si no imprime "None" en la consola.
 
-my_other_list.append("lockes.CO") # La función de listas del sistema cuyo principal uso es para añadir nuevos elementos al final de la lista. 
+my_other_list.append("lockes.CO") # La función de listas cuyo principal uso es para añadir nuevos elementos al final de la lista. 
 print(my_other_list)
 
 my_other_list.insert(1, "Apuesto") # Sirve para insertar elementos en la posicion de la lista que desees, primero se coloca la posición en la que queremos insertar un elemento y luego aquello que queramos insertar.
@@ -76,7 +76,7 @@ print(my_other_list)
 
 print(my_other_list[2]) # Y como vemos los elementos se corren de posición, ya que el "1.79" estaba en la posición 1.
 
-my_other_list.remove("Más que apuesto") # Función de listas del sistema para poder eliminar cualquier valor de la lista.
+my_other_list.remove("Más que apuesto") # Función de listas utilizada para poder eliminar cualquier valor de la lista.
 print(my_other_list)
 
 my_list.remove(31) # Otro ejemplo con la función remove, si nos damos cuenta esta función eliminara el primer valor que encuentre que nosotros le hayamos indicado.
@@ -114,7 +114,7 @@ print(my_new_list)
 # my_other_list.sort() / Entre variables 'str' e 'int' no se pueden ordenar de menor a mayor
 
 
-# Ahora rebanadas de los elementos de una lista.
+# Ahora rebanadas / slices de los elementos de una lista.
 my_new_list.append(93) # Añadimos más variables a la lista.
 my_new_list.append(64)
 my_new_list.append(38) 
