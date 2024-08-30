@@ -129,3 +129,9 @@ my_list = "Hola Python" # Teníamos una lista con el mismo nombre y debido al ti
 
 print(my_list)
 print(type(my_list))
+
+"""
+NOTA
+Al hacer una lista si utlizamos list() hay que poner unos corchetes si queremos incluir diversos elementos.
+Para convertir una variable en una lista no se colocan los corchetes.
+"""

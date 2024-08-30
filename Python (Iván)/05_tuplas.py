@@ -26,7 +26,7 @@ PRINCIPAL DIFERENCIA CON LAS LISTAS
 
 my_tuple[1] = 1.80
 print(my_tuple)
-Esto da error ya que los elementos en una tupla son constantes.
+Esto da error ya que los elementos en una tupla son constantes y no se pueden extraer.
 
 my_tuple[5] = 1.80
 print(my_tuple)
@@ -53,8 +53,8 @@ my_tuple = tuple(my_tuple) # Volvemos a valores fijos.
 print(my_tuple)
 print(type(my_tuple))
 
-# del my_tuple[2] / No se permite ya que los elementos de una tupla no se pueden eliminar.
+# del my_tuple[2] / No se permite, ya que los elementos de una tupla no se pueden eliminar.
 
-del my_tuple # Ahora my_tuple no esta definida ya que la hemos eliminado, esto la verdad es que es poco coherente cuando lo vemos ya que una tupla no puede modificar sus elementos.
-# print(my_tuple) / NameError: name 'my_tuple' is not defined, es decir, la tupla no esta definida.
-# 'del' es utilizado para eliminar variables, no su contenido.
+del my_tuple # Ahora my_tuple no está definida debido a que la hemos eliminado, esto la verdad es que es poco incoherente cuando lo vemos, ya que una tupla no puede modificarse.
+# print(my_tuple) / NameError: name 'my_tuple' is not defined, es decir, la tupla no está definida.
+# 'del' es utilizado para eliminar variables, no su contenido, aunque esto se exceptua dentro de las listas al especificar el elemento que deseamos eliminar de ellas.
