@@ -97,4 +97,4 @@ print(list(my_dict.values())) # Puedo hacer una lista de valores con la función
 
 my_new_dict = dict.fromkeys(("Nombre", "Apellido", "Edad"), "lockes")
 print(dict.fromkeys(list(my_new_dict.values()))) # Incluso podemos dar vueltas y hacer un nuevo diccionario a partir de una lista de valores de otro diccionario.
-print(list(dict.fromkeys(list(my_new_dict.values())))) # Una lista a partir de lo anterior.
+print(list(dict.fromkeys(list(my_new_dict.values())).keys())) # Una lista a partir de lo anterior, el keys es para tomar las claves del diccionario.
