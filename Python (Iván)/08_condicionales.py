@@ -55,7 +55,7 @@ else:
     print("Es menor o igual que 15 o mayor o igual que 20") # Si no se cúmple ninguna de los dos apartados anteriores se recurre a "else".
 
 
-print("La ejecución continua")
+print("La ejecución continúa")
 
 
 
