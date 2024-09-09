@@ -30,7 +30,7 @@ Esto da error ya que los elementos en una tupla son constantes y no se pueden ex
 
 my_tuple[5] = 1.80
 print(my_tuple)
-Tampoco se permite el añadir valores a las tuplas.
+Tampoco se permite añadir valores nuevos a las tuplas.
 """
 
 my_other_tuple = (35, 60, 40, 53, 36, 53)

@@ -1,7 +1,7 @@
-# INTRODUCCIÓN A PYTHON #
+### Introducción a Python ###
 
 
-# Esto es un comnetario: 
+# Esto es un comentario: 
 # Nuestro Hola Mundo en Python
 print("Hola Python") # Escribe en la consola lo que se encuantra dentro del parentesis
 print('Hola Python') # También se puede escribir con ''.

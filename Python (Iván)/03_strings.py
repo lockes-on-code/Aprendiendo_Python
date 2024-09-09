@@ -1,4 +1,4 @@
-# STRINGS #
+### Strings ###
 
 my_string = "My String"
 my_other_string = 'My Other String' # Se pueden escribir con "" o ''.

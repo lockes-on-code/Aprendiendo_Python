@@ -1,4 +1,4 @@
-# OPERADORES ARIMÉTICOS #
+### Operadores ariméticos ###
 
 # Operadores ariméticos básicos con números
 
@@ -32,7 +32,7 @@ print("")
 
 
 
-# OPERADORES COMPARATIVOS #
+### Operadores comparativos ###
 
 """
 Operadores comparativos con números.
@@ -69,7 +69,7 @@ print("")
 
 
 
-# OPERADORES LÓGICOS #
+### Operadores lógicos ###
 # Lógica y las tablas de la verdad (Conjunción "and" y disyunción "or").
 
 print(3 > 4 and "Paco" > "Python") # "False" y "False" = "False"
